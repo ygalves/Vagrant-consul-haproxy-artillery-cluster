@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://www.uao.edu.co/wp-content/uploads/2023/01/3-Home-principal-Mockup-Escritorio-UAO-copy-05.png" width=30%>
 
-
+<page>
 <h1>UNIVERSIDAD AUTÓNOMA DE OCCIDENTE</strong></h1>
 <h2>CALI - COLOMBIA</strong></h2>
 <h2>22/10/2023</strong></h2>
@@ -14,3 +14,19 @@
 *   <font color='red'> 2235650 Guillermo Leon Zapata Álvarez </font>
 *   <font color='red'> 2235918 Jairo Alberto Vélez Giraldo </font>
 *   <font color='red'> 2237389 Yoniliman Galvis Aguirre </font>
+</page>
+<page>
+<h1>RESUMEN</h1>
+Este laboratorio monta una plataforma en vagrant + virtualbox para proveer 4 maquinas virtuales
+*  server20: (192.168.100.20) Servidor de administracion de servicios:
+    -  Consul Server: Monitorea y chequea el estado de los servicios y provee al administrador de carga 
+    -  HAProxy: Distribuye la carga de las solicitudes entre los servicios 
+*  service31: (192.168.100.31) Servidor de Servicios 1
+    -  Consul agent: Agente Consul de monitoreo de servicios
+    -  NPM / NodeJs: Engines para cargar los servicios jason /Java, en este nodo se usarán puertos 31XX
+*  service32: (192.168.100.32) Servidor de Servicios 1
+    -  Consul agent: Agente Consul de monitoreo de servicios
+    -  NPM / NodeJs: Engines para cargar los servicios jason /Java, en este nodo se usarán puertos 32XX 
+*  loadServer36: (192.168.100.36) Servidor de Pruebas e carga para el sistema
+    -  Artillery: Engine de pruebas de carga
+</page>
