@@ -32,3 +32,5 @@ Este laboratorio monta una plataforma en vagrant + virtualbox para proveer 4 maq
 		 - Artillery: Engine de pruebas de carga.
 		 
 </page>
+<p align="center">
+<img src="https://github.com/ygalves/Vagrant-consul-haproxy-artillery-cluster/assets/159655702/acd1b738-821f-41c4-86eb-dfa70456b544" width=100%>
