@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>JavaScript Scientific Calculator Example</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+      
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>JavaScript Scientific Calculator Example</h1>
+ <p>A Scientific Calculator in HTML, CSS and Vanilla JavaScript.</p>
+
+ <div class="action">
+ <a href="https://www.codehim.com/html5-css3/javascript-scientific-calculator/" title="Back to download and tutorial page" class="btn back">Back to Tutorial</a>
+ </div>
+ </header>
+  
+      
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+     	<table class="calculator table">
+		<thead>			
+			<tr>
+				<td colspan=7>
+					<div class="output form-group">
+						<input type="text" class="ans form-control" readonly name="">
+					</div>				
+				</td>
+			</tr>
+		</thead>
+		<tbody class="actions">		
+			<tr>
+				<td colspan=3></td>
+				<td>
+					<button class="btn btn-op" data-value='*('>(</button>				
+					
+				</td>
+				<td>
+					<button class="btn btn-op" data-value=')'>)</button>				
+					
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='%'>%</button>			
+					
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='ce'>CE</button>				
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class="btn btn-op" data-value='inv'>Inv</button>				
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='sin'>sin</button>			
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='ln'>ln</button>				
+				</td>
+				<td>
+					<button class="btn" data-value='7'>7</button>
+				</td>
+				<td>
+					<button class="btn" data-value='8'>8</button>				
+				</td>
+				<td>
+					<button class="btn" data-value='9'>9</button>				
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='/'>&#x00f7;</button>				
+					
+				</td>
+			</tr>			
+			<tr>
+				<td>
+					<button class="btn btn-op" data-value='*3.14'>&pi;</button>				
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='cos'>cos</button>			
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='log'>log</button>				
+				</td>
+				<td>
+					<button class="btn" data-value='4'>4</button>
+				</td>
+				<td>
+					<button class="btn" data-value='5'>5</button>				
+				</td>
+				<td>
+					<button class="btn" data-value='6'>6</button>				
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='*'>	&times;</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<button class="btn btn-op" data-value='e'>e</button>				
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='tan'>tan</button>			
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='radic'>&radic;</button>				
+				</td>
+				<td>
+					<button class="btn" data-value='3'>3</button>
+				</td>
+				<td>
+					<button class="btn" data-value='2'>2</button>				
+				</td>
+				<td>
+					<button class="btn" data-value='1'>1</button>				
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='-'>-</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class="btn btn-op" data-value='exp'>EXP</button>			
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='x^2'>x&#xb2;</button>				
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='**'>x&#94;</button>		
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='.'>.</button>
+				</td>
+				<td>
+					<button class="btn" data-value='0'>0</button>				
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='='>=</button>				
+				</td>
+				<td>
+					<button class="btn btn-op" data-value='+'>+</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+      
+  <footer class="credit">Author: Nadia Iqbal - Distributed By: <a title="Awesome web design code & scripts" href="https://www.codehim.com?source=demo-page" target="_blank">CodeHim</a></footer>
+  
+<!-- Calculator JS -->
+  <script  src="./js/script.js"></script>
+  </body>
+</html>
