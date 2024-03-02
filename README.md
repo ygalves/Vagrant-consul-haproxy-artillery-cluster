@@ -4,7 +4,7 @@
 <page>
 <h1>UNIVERSIDAD AUTÓNOMA DE OCCIDENTE</strong></h1>
 <h2>CALI - COLOMBIA</strong></h2>
-<h2>22/10/2023</strong></h2>
+<h2>01/03/2024</strong></h2>
 <h1><strong>Especialización en Inteligencia Artificial</strong></h1>
 <h2><strong>CLOUD COMPUTING</strong></h2>
 <h2><strong>MICRO PROYECTO 1. </strong> Cluster Consul con HAProy y test de carga con Artillery</h2>
